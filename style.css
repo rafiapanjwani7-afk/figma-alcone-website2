@@ -1,0 +1,69 @@
+.registerBtn{
+    background-color: #75BF7A;
+    border: 1px solid #75BF7A;
+    height: 49.49px;
+    width: 150px;
+    color: #fff;
+    border-radius: 2.78px;
+}
+.registerBtn:hover{
+    background-color: #75BF7A !important;
+    color: #fff;
+}
+.navbar-nav{
+    gap: 20.71px;
+}
+.headerColor{
+    background-color: #fff;
+}
+.colorDark{
+    color:#9E9DA2;
+    font-size: 15px;
+}
+.downloadbtn{
+    background-color: #000;
+    border: 1px solid #000;
+    height: 66.77316284179688px;
+    width: 260px;
+    color: #fff;
+}
+.downloadbtn:hover{
+    background-color: #000 !important;
+    color: #fff;
+}
+.lesson{
+    font-size: 55px;
+}
+.lesson div{
+    color: #75BF7A;
+}
+.lefthero{
+    height:200px ;
+    width: 530px;
+}
+input{
+    width: 499px;
+    height: 66.77316284179688px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.combination{
+    background-color: #75BF7A;
+}
+.terespan{
+    color: #75BF7A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
