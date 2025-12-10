@@ -1,4 +1,4 @@
-.registerBtn{
+.registerBtn {
     background-color: #75BF7A;
     border: 1px solid #75BF7A;
     height: 49.49px;
@@ -6,54 +6,107 @@
     color: #fff;
     border-radius: 2.78px;
 }
-.registerBtn:hover{
+
+.registerBtn:hover {
     background-color: #75BF7A !important;
     color: #fff;
 }
-.navbar-nav{
+
+.navbar-nav {
     gap: 20.71px;
 }
-.headerColor{
+
+.headerColor {
     background-color: #fff;
 }
-.colorDark{
-    color:#9E9DA2;
+
+.colorDark {
+    color: #9E9DA2;
     font-size: 15px;
 }
-.downloadbtn{
+
+.downloadbtn {
     background-color: #000;
     border: 1px solid #000;
     height: 66.77316284179688px;
     width: 260px;
     color: #fff;
 }
-.downloadbtn:hover{
+
+.downloadbtn:hover {
     background-color: #000 !important;
     color: #fff;
 }
-.lesson{
+
+.lesson {
     font-size: 55px;
 }
-.lesson div{
+
+.lesson div {
     color: #75BF7A;
 }
-.lefthero{
-    height:200px ;
-    width: 530px;
+
+.bxhero {
+    
+    border: 1px solid black;
 }
-input{
+
+.bximg {
+   
+    border: 1px solid #000;
+}
+
+.Righthero {
+    position: relative;
+    z-index: 1;
+    height: 304px;
+    
+} 
+
+input {
     width: 499px;
     height: 66.77316284179688px;
     padding-left: 30px;
     font-size: 20px;
 }
-.combination{
+
+.combination {
     background-color: #75BF7A;
 }
-.terespan{
+
+.terespan {
     color: #75BF7A;
 }
 
+.circle {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: #75BF7A;
+}
+.mobile {
+    display: none;
+}
+.mobileicon{
+    position: absolute;
+    bottom: -25px;
+    right: 30%;
+    transform: translate(-50%);
+    z-index: 1;
+    pointer-events:none ;
+}
+  position: absolute;
+            bottom: -25px;
+            right: 30%;
+            transform: translateX(-50%);
+            width: 400px;
+            z-index: 1;
+            pointer-events: none;
+        }
+        .benefits-row {
+            position: relative;
+            z-index: 2;
+        }
 
 
 
@@ -65,5 +118,11 @@ input{
 
 
 
-
-
+@media only screen and(max-width:1030px) {
+   .bx{
+    flex-direction: column-reverse;
+   }
+}
+@media only screen  and(max-width:) {
+    
+}
