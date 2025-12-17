@@ -76,6 +76,7 @@ input {
 }
 .mobile {
     display: none;
+    margin-bottom: 10px;
 }
 .benefits-section {
      position: relative;
@@ -151,6 +152,23 @@ input {
     }
 
 }
+@media (max-width: 960px) {
+    .position-absolute {
+        position: static !important;
+      transform: none !important;
+        margin-top: 50px !important;
+        text-align: center !important;
+       
+        
+    }
+    .position-relative{
+        position: static !important;
+        margin-top: 52px !important;
+        text-align: center !important;
+
+    }
+
+}
 @media only screen and (max-width:750px) {
     .mobile{
         display: block;
@@ -159,4 +177,22 @@ input {
         justify-content: center;
         align-items: center;
     }
+}
+@media only screen and (max-width:530px) {
+
+    input {
+    width: 400px;
+    height: 66.77316284179688px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+}
+@media only screen and (max-width:410px) {
+
+    input {
+    width: 280px;
+    height: 66.77316284179688px;
+    padding-left: 20px;
+    font-size: 18px;
+}
 }
